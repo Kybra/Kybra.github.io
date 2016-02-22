@@ -53,7 +53,7 @@ menu, nav, section { display: block; }
     display: block;
     padding: 10px 20px;
     color:#543478;
-    font-family: Ayita, monospace;
+    font-family: axure handwriting, monospace;
 }
 .nav ul li a:hover {
     color: white;
@@ -119,17 +119,17 @@ menu, nav, section { display: block; }
   float: right;
 }
 .rechts h1{
-  font-family: Ayita, monospace;
+  font-family: axure handwriting, monospace;
   color:#543478;
 }
 .rechts p{
-  font-family: Ayita, monospace;
+  font-family: axure handwriting, monospace;
   color:#543478;
   padding-right:40px;
   text-align: justify;
 }
 .links li{
-  font-family: Ayita, monospace;
+  font-family: axure handwriting, monospace;
   color:#543478;
 }
 
@@ -155,7 +155,7 @@ menu, nav, section { display: block; }
   transition: .30s;
     }
 .box a{
-  font-family:Ayita, monospace;
+  font-family:axure handwriting, monospace;
   font-size: 28px;
   text-decoration: none;
   color: #fff;
@@ -235,7 +235,7 @@ float: left;
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"]
-{ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+{ font:400 12px/16px "Open Sans", Myriad pro, Arial, sans-serif; }
 
 
 
@@ -244,7 +244,7 @@ float: left;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
-  font-family: Ayita, monospace;
+  font-family: axure handwriting, monospace;
 }
 
 
@@ -264,7 +264,8 @@ fieldset {
 	padding:10px;
 }
 
-#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover,
+#contact input[type="url"]:hover, #contact textarea:hover {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
@@ -316,20 +317,6 @@ fieldset {
 
 /*contact style end*/
 
-/*impressum style*/
-
-.imp{
-  background-color:#ccccff;
-  font-family: monospace;
-  color:#843478;
-
-}
-.imp table{
-  color:#843478;
-
-}
-
-/*impressum style end*/
 
 
 /*Footer style*/
@@ -341,19 +328,11 @@ fieldset {
 }
 
 .footer p{
-  font-family: Ayita, monospace;
+  font-family: myriad pro, monospace;
   color:#543478;
+  font-size: 9pt;
+  padding: 5px;
 }
 
-.footer a{
-  text-decoration: none;
-  color:#543478;
-  font-family: Ayita, monospace;
-}
-
-.footer a:hover{
-    color: white;
-
-}
 
 /*Footer style end*/
